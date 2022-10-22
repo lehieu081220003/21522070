@@ -1,0 +1,50 @@
+body {
+  background-image: url("images/background.gif");
+  background-size: 100%;
+  }
+  
+  .avatar {
+    width: 15%;
+    height: 5%;
+    border-radius: 20%;
+  }
+  
+  h1 {
+    font-family: "Lobster";
+    font-size: 200%;
+    font-display: 30%;
+    color: white;
+  }
+  
+  p {
+    font-family: system-ui;
+    width: 20%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    p {
+      width: 100%;
+    }
+  }
+  
+  .button {
+    margin-bottom: 20px;
+    background-image: url(images/button.gif);
+    border: 0;
+    width: 20%;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: "Roboto Condensed", cursive;
+    font-size: 15px;
+    color: white;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: 0px 11px 22px -9px #000000;
+    box-shadow: 0px 11px 22px -9px #000000;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: white;
+    font-size: 20px;
+  }
